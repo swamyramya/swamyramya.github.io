@@ -559,7 +559,7 @@ footer{text-align:center;padding:56px 24px 70px}
 <footer>
   <div class="hashtag">#SwamyRamya2026</div>
   <p class="foot-note">With love from the Adapa family · Tampa, Florida</p>
-  <button class="host-toggle" id="host-toggle">View combined guest list</button>
+  <button class="host-toggle" id="host-toggle" style="display:none">View combined guest list</button>
   <div class="host-panel" id="host-panel">
     <h4>Guest responses</h4>
     <div id="host-list"><p class="host-empty">Loading…</p></div>
@@ -573,9 +573,9 @@ var WEDDING_DATE = new Date('2026-08-26T12:46:00-04:00');
 /* RSVP collection — paste your Google Apps Script Web App URL below.
    BOTH the bride's and groom's invitations use the SAME url, so every
    response lands in ONE combined Google Sheet. (Setup steps provided.) */
-var RSVP_ENDPOINT = "PASTE_WEB_APP_URL_HERE";
+var RSVP_ENDPOINT = "https://script.google.com/macros/s/AKfycbyelgFC67VlSg_wNa-TDO7LpNsble-jZivhwLoPK5OcdYyFtY6TmUmXRRsiep4_SF0H/exec";
 /* Optional: paste your Google Sheet link so the guest-list button opens it. */
-var GUESTLIST_URL = "PASTE_GOOGLE_SHEET_URL_HERE";
+var GUESTLIST_URL = "https://docs.google.com/spreadsheets/d/1tmKl-ZMlIGUPpxnxf35J6D3rHDEESUEcQ3YXNk8Ay_0/edit";
 /* Tags each RSVP with the invite it came from (set per version). */
 var RSVP_SIDE = "Groom";
 
